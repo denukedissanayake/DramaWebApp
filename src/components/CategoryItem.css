@@ -1,0 +1,50 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* body {
+  margin: 5rem;
+} */
+
+.card {
+  overflow: hidden;
+  box-shadow: 0 2px 20px gray;
+  border-radius: 10px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-between; */
+  cursor: pointer;
+  transition: transform 300ms ease-in;
+  margin: 5px;
+}
+
+.card img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  opacity: 0.85;
+}
+
+.topic {
+  /* width: 100%;
+  height: 100%; */
+  padding: 2rem;
+  position: relative;
+  margin-top: -50%;
+}
+
+.topic h1 {
+  text-align: center;
+  color: #ffffff;
+  font-size: 50px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img:hover {
+  opacity: 0.95;
+}

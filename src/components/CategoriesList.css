@@ -1,0 +1,10 @@
+/* .wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 20rem));
+  justify-content: center;
+} */
+
+.wrapper {
+  display: flex;
+  justify-content: space-around;
+}
