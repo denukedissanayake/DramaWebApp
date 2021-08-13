@@ -1,7 +1,8 @@
 body {
-  margin-left: 2rem;
-  margin-right: 2rem;
+  margin-left: 4rem;
+  margin-right: 4rem;
   margin-bottom: 2rem;
+  /* margin-top: 2rem; */
 }
 
 .heding-topic {
@@ -16,5 +17,15 @@ body {
 
 .heding-topic h2 {
   font-size: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 0rem;
+  margin-top: 1rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
 }
