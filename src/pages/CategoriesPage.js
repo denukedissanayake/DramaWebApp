@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CategoryList from '../components/CategoriesList';
+import CategoryList from '../components/Categories/CategoriesList'
 
 import "./CategoriesPage.css";
 
@@ -14,8 +14,6 @@ const CategoriesPage = () => {
                 </div>
                 <CategoryList/>
             </div>
-            
-
         </React.Fragment>
         
     ) ;
