@@ -7,8 +7,6 @@ import Card from '../UIElements/Card'
 
 const CategoryItem = props => {
     return (
-        // <li className="category-List-item">
-    //{/* <Card> */}
     <div className="category-item">
         <div className='item-image'>
             <img src={props.image} alt={props.title}/>
@@ -21,9 +19,12 @@ const CategoryItem = props => {
             <h4>{props.genre}</h4>
             <p>{props.description}</p>
         </div>
+        <div className='item-buttons'>
+            <button>Add to Wishlist</button>
+            <button>Edit Item</button> 
+            <button>Delete Item</button>   
+        </div>
     </div>
-   // {/* </Card> */}
-    // </li>
     );
 }
 
