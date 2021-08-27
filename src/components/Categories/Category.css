@@ -16,6 +16,7 @@
   cursor: pointer;
   transition: transform 300ms ease-in;
   margin: 5px;
+  padding: 0 !important;
 }
 
 .card img {
@@ -45,4 +46,10 @@
 
 .card img:hover {
   opacity: 0.95;
+}
+
+a:-webkit-any-link {
+  color: -#ffffff;
+  cursor: pointer;
+  text-decoration: none;
 }

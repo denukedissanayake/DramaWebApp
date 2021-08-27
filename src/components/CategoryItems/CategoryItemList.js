@@ -2,23 +2,25 @@ import React from 'react'
 
 import './CategoryItemList.css'
 
-import Card from '../UIElements/Card'
 import CategoryItem from './CategoryItem'
 
 const CategoryItemList = props => {
 
     if (props.items.length === 0) {
         return <div className='itemList-center'>
-            <Card>
-                <h2>
+            <div>
+                <h2 className="no-item">
                     No Items Found for this Category!
                 </h2>
-            </Card>
+            </div>
         </div>
     }
 
-    return <ul className="item-list">
-        {props.items.map(item => (
+    return (
+        // <ul className="item-list">
+        // </ul>
+        <div className="item-list">
+            {props.items.map(item => (
             <CategoryItem
                 key={item.id}
                 id={item.id}
@@ -30,7 +32,8 @@ const CategoryItemList = props => {
                 ratingCount={item.ratingCount}
             />
         ))}
-    </ul>
+        </div>
+    )
 }
 
 export default CategoryItemList;
