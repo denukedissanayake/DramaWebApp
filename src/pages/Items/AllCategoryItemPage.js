@@ -1,7 +1,7 @@
 import React from 'react'
 import { useParams } from 'react-router';
 
-import CategoryItemList from '../components/CategoryItems/CategoryItemList';
+import CategoryItemList from '../../components/CategoryItems/CategoryItemList';
 
 const DUMMY_ITEMS = [
     {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import CategoryList from '../components/Categories/CategoriesList'
+import CategoryList from '../../components/Categories/CategoriesList'
 
 import "./CategoriesPage.css";
 

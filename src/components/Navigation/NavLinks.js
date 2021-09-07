@@ -16,7 +16,7 @@ const NavLinks = props => {
             <NavLink to="/u1/favItems">Favourites</NavLink>
         </li>
         <li>
-            <NavLink to="/u1/myItems">My Items</NavLink>
+            <NavLink to="/addItems">Add Items</NavLink>
         </li>
         <li>
             <NavLink to="/auth">Sign Up</NavLink>
